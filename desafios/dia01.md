@@ -17,6 +17,7 @@ Você pode se deparar com um erro ao tentar usar o valor inserido pelo usuário 
 ## Testes
 
 Após criar o seu código, abra o terminal, vá até a pasta que está seu script, e execute o comando `python nome-do-seu-script.py`.
+
 Você pode então realizar alguns testes em seu script. Execute seu script várias vezes para ver se ele se comporta como esperado para cada um dos valores abaixo:
 
 TESTE 01: 5 -> ímpar 
@@ -24,7 +25,5 @@ TESTE 02: 898 -> par
 TESTE 03: -5 -> ímpar
 TESTE 04: -4 -> par
 TESTE 05: 0 -> par
-Você pode fazer outros testes caso ache necessário.
 
-Concluiu?
-Ao finalizar o seu desafio, não esqueça de voltar lá no grupo, na mensagem que enviei de manhã com este link, e curtir com um ✅. Parabéns!!! Amanhã tem mais!
+Você pode fazer outros testes caso ache necessário.
