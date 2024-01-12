@@ -4,13 +4,14 @@ calcular = True
 
 while calcular:
     try:
-        operacao = int(input("\nDigite [1] para somar, [2] para subtrair, [3] para multiplicar ou [4] para dividir: ")) 
+        numero1 = float(input("\nDigite o primeiro número: "))
+
+        operacao = int(input("Escolha a operação - [1] Somar, [2] Subtrair, [3] Multiplicar ou [4] Dividir: ")) 
 
         while operacao < 1 or operacao > 4:
             print()
             operacao = int(input("Opção inválida. Por favor, insira um código da operação entre 1 e 4: "))
 
-        numero1 = float(input("Digite o primeiro número: "))
         numero2 = float(input("Digite o segundo número: "))
 
         if operacao == 1:
@@ -25,7 +26,7 @@ while calcular:
             else:
                 resultado = numero1 / numero2
 
-        print(f"\nO resultado é: {resultado}.\n")
+        print(f"\nResultado: {resultado}.\n")
 
         continuar = input("Deseja continuar? Digite [S] para Sim ou [N] para Não: ")
 
