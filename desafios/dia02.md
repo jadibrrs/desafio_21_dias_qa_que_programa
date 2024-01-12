@@ -21,21 +21,37 @@ Você pode fazer alguns tratamentos para lidar com casos do tipo divisão por 0.
 Realize alguns testes em seu script no terminal. Execute seu script várias vezes para ver se ele se comporta como esperado para cada um dos valores abaixo:
 
 TESTE 01: 1 + 5 -> 6
+
 TESTE 02: 5 - 1 -> 4
+
 TESTE 03: 2 x 30 -> 60
+
 TESTE 04: 21 / 7 -> 3
+
 TESTE 05: 10 / 0 -> Não é possível dividir por zero.
+
 TESTE 06: 1 + -5 -> -4
+
 TESTE 07: 5 - -1 -> 6
+
 TESTE 08: 2 x -30 -> -60
+
 TESTE 09: -21 / 7 -> -3
+
 TESTE 10: -10 / 0 -> Não é possível dividir por zero.
 
 Você pode fazer outros testes caso ache necessário.
+
 TESTE EXTRA 1: 2.1 + 3.7 -> 5.8
+
 TESTE EXTRA 2: 
+
 - Digitar caractere não numérico em vez do código da operação -> Opção inválida.
+
 TESTE EXTRA 3:
+
 - Digitar código superior a 4 -> Opção inválida. 
+
 - Digitar código inferior a 1 -> Opção inválida.
+
 - Digitar código válido e realizar operação qualquer.
