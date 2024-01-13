@@ -4,7 +4,7 @@
 
 Desenvolva um programa que peça ao usuário para inserir um número. O programa deve então verificar se o número é par ou ímpar e exibir uma mensagem informando o usuário.
 
-## Conhecimentos necessários para resolver este desafio?
+## Conhecimentos necessários para resolver este desafio
 
 - Entrada de dados em Python: Aprenda a usar funções como input() para coletar dados do usuário.
 - Estruturas de controle (if/else): Entenda como utilizar if/else para implementar a lógica de verificação de números pares e ímpares.
@@ -20,10 +20,10 @@ Após criar o seu código, abra o terminal, vá até a pasta que está seu scrip
 
 Você pode então realizar alguns testes em seu script. Execute seu script várias vezes para ver se ele se comporta como esperado para cada um dos valores abaixo:
 
-TESTE 01: 5 -> ímpar 
-TESTE 02: 898 -> par
-TESTE 03: -5 -> ímpar
-TESTE 04: -4 -> par
-TESTE 05: 0 -> par
+- TESTE 01: 5 -> ímpar 
+- TESTE 02: 898 -> par
+- TESTE 03: -5 -> ímpar
+- TESTE 04: -4 -> par
+- TESTE 05: 0 -> par
 
 Você pode fazer outros testes caso ache necessário.
