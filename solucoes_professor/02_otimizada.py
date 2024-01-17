@@ -16,7 +16,7 @@ def calcular(op, n1, n2):
     # Se 'op' não for encontrado no dicionário, uma função lambda padrão é fornecida,
     # que retorna "Operação inválida.".
     # A função lambda selecionada é então chamada com n1 (x) e n2 (y) como argumentos.
-    return operacoes.get(op, lambda x, y: "Operação inválida.")(n1, n2)
+    return operacoes.get(op, lambda valor: "Operação inválida.")(n1, n2)
 
 # Solicita ao usuário o primeiro número e o armazena na variável 'num1'.
 num1 = float(input("Digite o primeiro número: "))

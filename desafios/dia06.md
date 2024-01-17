@@ -13,7 +13,13 @@ Crie um programa que converta unidades de medida. Para este desafio o foco são 
 
 Antes de iniciar a conversão, certifique-se de entender a relação entre as unidades de medida que deseja converter. 
 
-Utilize as taxas de conversão fornecidas para realizar os cálculos corretamente: Quilômetros para Milhas (1 quilômetro = 0,621371 milhas), Milhas para Quilômetros (1 milha = 1,60934 quilômetros), Metros para Pés (1 metro = 3,28084 pés), Pés para Metros (1 pé = 0,3048 metros), Graus Celsius para Fahrenheit (Fahrenheit = Celsius * 9/5 + 32) e Graus Fahrenheit para Celsius (Celsius = (Fahrenheit - 32) * 5/9).
+Utilize as taxas de conversão fornecidas para realizar os cálculos corretamente: 
+- Quilômetros para Milhas (1 quilômetro = 0,621371 milhas);
+- Milhas para Quilômetros (1 milha = 1,60934 quilômetros);
+- Metros para Pés (1 metro = 3,28084 pés);
+- Pés para Metros (1 pé = 0,3048 metros);
+- Graus Celsius para Fahrenheit (Fahrenheit = Celsius * 9/5 + 32); e 
+- Graus Fahrenheit para Celsius (Celsius = (Fahrenheit - 32) * 5/9).
 
 Use operações matemáticas adequadas para realizar a conversão de uma unidade para outra, aplicando as taxas de conversão especificadas.
 
