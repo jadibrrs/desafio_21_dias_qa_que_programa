@@ -30,3 +30,5 @@ Realize alguns testes em seu script no terminal. Execute seu script usando os va
 - TESTE 07: O jogador escolhe a opção de sair.
 
 Você pode fazer outros testes caso ache necessário.
+
+Obs.: Números primos de 2 a 50 -> 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47.
