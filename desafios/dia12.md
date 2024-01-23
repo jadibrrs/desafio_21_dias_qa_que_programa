@@ -28,23 +28,23 @@ Texto fornecido: "hello world"
 
 Resultado esperado:
 
-{
+    {
 
-    'h': 1,
+        'h': 1,
 
-    'e': 1,
+        'e': 1,
 
-    'l': 3,
+        'l': 3,
 
-    'o': 2,
+        'o': 2,
 
-    'w': 1,
+        'w': 1,
 
-    'r': 1,
+        'r': 1,
 
-    'd': 1
+        'd': 1
 
-}
+    }
 
 - TESTE 02:
 
@@ -52,31 +52,31 @@ Texto fornecido: "programming is fun"
 
 Resultado esperado:
 
-{
+    {
 
-    'p': 1,
+        'p': 1,
 
-    'r': 2,
+        'r': 2,
 
-    'o': 1,
+        'o': 1,
 
-    'g': 2,
+        'g': 2,
 
-    'a': 1,
+        'a': 1,
 
-    'm': 2,
+        'm': 2,
 
-    'i': 2,
+        'i': 2,
 
-    'n': 2,
+        'n': 2,
 
-    's': 1,
+        's': 1,
 
-    'f': 1,
+        'f': 1,
 
-    'u': 1
+        'u': 1
 
-}
+    }
 
 - TESTE 03:
 
@@ -84,20 +84,20 @@ Texto fornecido: "testing 123321"
 
 Resultado esperado:
 
-{
-    
-    't': 2,
+    {
+        
+        't': 2,
 
-    'e': 1,
+        'e': 1,
 
-    's': 1,
+        's': 1,
 
-    'i': 1,
+        'i': 1,
 
-    'n': 1,
+        'n': 1,
 
-    'g': 1
+        'g': 1
 
-}
+    }
 
 Você pode fazer outros testes caso ache necessário.
