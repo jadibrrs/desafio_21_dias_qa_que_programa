@@ -1,7 +1,8 @@
 import random
 
 def gerar_numero():
-    numero = random.randint(1, 100)
+    #numero = random.randint(1, 100)
+    numero = 67
     return numero
 
 def verificar_resposta(numero, resposta, pontos):
@@ -25,8 +26,7 @@ def acao(acao):
 
     if acao == 1:
         print("\nSelecionamos um número entre os números 1 e 100. Adivinhe qual é!")
-        #numero = gerar_numero()
-        numero = 67
+        numero = gerar_numero()
         for i in range(7, 0, -1):
             resposta = int(input("\nDigite sua resposta: "))
             if verificar_resposta(numero, resposta, pontos):
@@ -55,9 +55,3 @@ print("#################### Jogo da Adivinhação ###################")
 while jogar: 
     acao_usuario = int(input("\nSelecione: [1] Jogar, [2] Ver Pontuação, [3] Zerar Pontuação ou [4] Sair\n"))
     acao(acao_usuario)
-
-    if jogar:
-        continuar = input("\nGostaria de continuar? Aperte [ENTER] para continuar ou digite [S] para sair: ")
-        if continuar.lower() == "s":
-            print("Programa encerrado.")
-            jogar = False
