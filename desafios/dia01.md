@@ -20,10 +20,10 @@ Após criar o seu código, abra o terminal, vá até a pasta que está seu scrip
 
 Você pode então realizar alguns testes em seu script. Execute seu script várias vezes para ver se ele se comporta como esperado para cada um dos valores abaixo:
 
-- TESTE 01: 5 -> ímpar 
-- TESTE 02: 898 -> par
-- TESTE 03: -5 -> ímpar
-- TESTE 04: -4 -> par
-- TESTE 05: 0 -> par
+    - TESTE 01: 5 -> ímpar 
+    - TESTE 02: 898 -> par
+    - TESTE 03: -5 -> ímpar
+    - TESTE 04: -4 -> par
+    - TESTE 05: 0 -> par
 
 Você pode fazer outros testes caso ache necessário.

@@ -12,9 +12,8 @@ Desenvolva um script que gere e exiba uma lista com 6 números aleatórios entre
 
 ## Dica
 
-Você pode usar o módulo random para gerar números aleatórios entre 1 e 60, e em seguida, adicionar esses números a uma lista.
-
-Certifique-se de verificar se o número gerado não está na lista antes de adicioná-lo para evitar repetições. Continue gerando números até ter uma lista com 6 números aleatórios não repetidos.
+- Você pode usar o módulo random para gerar números aleatórios entre 1 e 60, e em seguida, adicionar esses números a uma lista.
+- Certifique-se de verificar se o número gerado não está na lista antes de adicioná-lo para evitar repetições. Continue gerando números até ter uma lista com 6 números aleatórios não repetidos.
 
 ## Testes
 

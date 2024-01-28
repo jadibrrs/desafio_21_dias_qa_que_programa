@@ -12,22 +12,19 @@ Desenvolva um programa em Python que permita ao usuário inserir informações s
 
 ## Dica
 
-Certifique-se de criar um arquivo CSV vazio para armazenar os detalhes dos livros, com as colunas apropriadas para título do livro, autor e ano de publicação.
-
-Implemente um menu de opções para o usuário, permitindo que ele insira novos livros ou visualize a lista de livros existentes.
-Utilize loops e estruturas condicionais para criar um programa interativo.
-
-Ao ler os dados do arquivo CSV, certifique-se de apresentar os livros de forma legível para o usuário, por exemplo, em um formato de lista.
-
-A utilização de arquivos CSV visa guardar os dados entre as execuções, então, caso adicione livro e saia do programa, ao entrar novamente e listar os livros cadastrados, eles estarão lá.
+- Certifique-se de criar um arquivo CSV vazio para armazenar os detalhes dos livros, com as colunas apropriadas para título do livro, autor e ano de publicação.
+- Implemente um menu de opções para o usuário, permitindo que ele insira novos livros ou visualize a lista de livros existentes.
+- Utilize loops e estruturas condicionais para criar um programa interativo.
+- Ao ler os dados do arquivo CSV, certifique-se de apresentar os livros de forma legível para o usuário, por exemplo, em um formato de lista.
+- A utilização de arquivos CSV visa guardar os dados entre as execuções, então, caso adicione livro e saia do programa, ao entrar novamente e listar os livros cadastrados, eles estarão lá.
 
 ## Testes
 
 Realize alguns testes em seu script no terminal. Execute seu script usando os valores abaixo, para ver se ele se comporta como esperado.
 
-- TESTE 01: Adicionar um novo livro à biblioteca e verificá-lo na lista.
-- TESTE 02: Adicionar vários livros à biblioteca e verificar se todos estão na lista.
-- TESTE 03: Visualizar a lista de livros na biblioteca vazia.
-- TESTE 04: Inserir livros na biblioteca e depois fechar o programa. Ao reiniciar o programa, verificar se os livros ainda estão na lista.
+    - TESTE 01: Adicionar um novo livro à biblioteca e verificá-lo na lista.
+    - TESTE 02: Adicionar vários livros à biblioteca e verificar se todos estão na lista.
+    - TESTE 03: Visualizar a lista de livros na biblioteca vazia.
+    - TESTE 04: Inserir livros na biblioteca e depois fechar o programa. Ao reiniciar o programa, verificar se os livros ainda estão na lista.
 
 Você pode fazer outros testes caso ache necessário.

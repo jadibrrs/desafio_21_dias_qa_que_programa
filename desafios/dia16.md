@@ -11,13 +11,10 @@ Desenvolva uma versão simples do jogo da forca, onde o usuário tenta adivinhar
 
 ## Dica
 
-Comece com uma lista de palavras que serão escolhidas aleatoriamente pelo programa.
-
-Implemente um sistema que oculte a palavra e revele letras à medida que o usuário adivinha.
-
-Defina um número de tentativas para o usuário e atualize-o à medida que eles fazem tentativas incorretas.
-
-Crie um controle quando o usuário chutar uma letra que ele já chutou antes
+- Comece com uma lista de palavras que serão escolhidas aleatoriamente pelo programa.
+- Implemente um sistema que oculte a palavra e revele letras à medida que o usuário adivinha.
+- Defina um número de tentativas para o usuário e atualize-o à medida que eles fazem tentativas incorretas.
+- Crie um controle quando o usuário chutar uma letra que ele já chutou antes.
 
 ## Testes
 
