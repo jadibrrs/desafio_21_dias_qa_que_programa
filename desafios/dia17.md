@@ -31,7 +31,7 @@ Realize alguns testes em seu script no terminal. Execute seu script usando os va
 - TESTE 03: Registrar uma nova despesa com o valor de 100,00, descrição "Combustível", categoria "Transporte" e uma data já utilizada antes.
 - TESTE 04: Registrar uma nova despesa com o valor de 65,00, descrição "Compras de frutas", categoria "Alimentação" e uma data qualquer.
 - TESTE 05: Visualizar um resumo das despesas por categoria.
-TESTE 06: Visualizar um resumo das despesas por uma data específica.
+- TESTE 06: Visualizar um resumo das despesas por uma data específica.
 - TESTE 07: Registrar mais despesas e testar novamente a visualização por categoria e por data.
 - TESTE 08: Sair do programa. Entrar novamente e ver que os dados continuam lá disponíveis.
 
