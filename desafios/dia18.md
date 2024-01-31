@@ -8,7 +8,8 @@ Desenvolva um programa que converta valores entre diferentes moedas. O programa 
 
 - Requisições HTTP em Python: Aprenda a fazer requisições a uma API de conversão de moedas.
 - Manipulação de JSON em Python: Entenda como processar a resposta JSON da API.
-- Estruturas de controle (if, else, loops): Use estruturas de controle para gerenciar o fluxo do programa.
+- Estruturas de controle (if, else, loops):
+, Use estruturas de controle para gerenciar o fluxo do programa.
 - Funções de entrada e saída: Conheça as funções para obter a entrada do usuário e exibir a saída.
 
 ## Dica
