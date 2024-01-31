@@ -5,15 +5,22 @@ def obter_taxas_moeda(moeda_base):
     resposta = requests.get(url)
 
     if resposta.status_code == 200:
-        dados = resposta.json()
-        return dados['rates']
+        try:
+            dados = resposta.json()
+            return dados['rates']
+        except KeyError:
+            print(f"Erro: Moeda de origem '{moeda_base}' não encontrada.")
+            return None
     else:
         print(f"Erro ao obter taxas. Código de status: {resposta.status_code}")
         return None
 
 def converter_moeda(valor, moeda_origem, moeda_destino, taxas):
-    if moeda_origem not in taxas or moeda_destino not in taxas:
-        print("Moeda inválida. Verifique as opções disponíveis.")
+    if moeda_origem not in taxas:
+        print(f"Moeda de origem '{moeda_origem}' inválida. Verifique as opções disponíveis.")
+        return None
+    if moeda_destino not in taxas:
+        print(f"Moeda de destino '{moeda_destino}' inválida. Verifique as opções disponíveis.")
         return None
 
     taxa_origem = taxas[moeda_origem]
@@ -23,9 +30,9 @@ def converter_moeda(valor, moeda_origem, moeda_destino, taxas):
     return valor_convertido
 
 def main():
-    moeda_base = input("Insira a moeda de origem (por exemplo, USD): ")
+    moeda_base = input("Insira a moeda de origem (por exemplo, USD): ").upper()
     valor = float(input("Insira o valor a ser convertido: "))
-    moeda_destino = input("Insira a moeda de destino (por exemplo, EUR): ")
+    moeda_destino = input("Insira a moeda de destino (por exemplo, EUR): ").upper()
 
     taxas = obter_taxas_moeda(moeda_base)
 
