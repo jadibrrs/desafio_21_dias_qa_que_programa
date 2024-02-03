@@ -4,28 +4,28 @@
 
 Neste desafio, você vai desenvolver um construtor de consultas SQL, um programa em Python que permite aos usuários criar consultas SQL SELECT personalizadas, comandos SQL UPDATE e comandos SQL INSERT. O construtor oferece uma interface interativa para coletar informações e gerar consultas ou comandos SQL com base nas escolhas dos usuários.
 
-### 🔹 Funcionalidades do Construtor de Consultas SQL:
+### Funcionalidades do Construtor de Consultas SQL:
 
-#### Consulta SQL SELECT
+#### 🔹 Consulta SQL SELECT
 
 - Os usuários podem criar consultas SQL SELECT personalizadas para recuperar dados de uma ou mais tabelas do banco de dados.
 - Eles podem selecionar as colunas desejadas, especificar tabelas e adicionar condições à cláusula WHERE, se necessário.
 - O programa gera e exibe a consulta SQL SELECT resultante.
 
-#### Comando SQL UPDATE
+#### 🔹 Comando SQL UPDATE
 
 - Os usuários podem criar comandos SQL UPDATE para atualizar registros em uma tabela.
 - Eles devem fornecer o nome da tabela, as colunas e os novos valores que desejam atualizar.
 - Também podem adicionar condições à cláusula WHERE para especificar quais registros devem ser atualizados.
 - O programa gera e exibe o comando SQL UPDATE resultante.
 
-#### Comando SQL INSERT
+#### 🔹 Comando SQL INSERT
 
 - Os usuários podem criar comandos SQL INSERT para inserir novos registros em uma tabela.
 - Eles devem fornecer o nome da tabela, as colunas nas quais desejam inserir valores e os próprios valores.
 - O programa gera e exibe o comando SQL INSERT resultante.
 
-### 🔹 Menu Interativo:
+#### 🔹 Menu Interativo
 
 O programa apresenta um menu interativo que permite aos usuários escolher entre criar uma consulta SELECT, um comando UPDATE ou um comando INSERT.
 
